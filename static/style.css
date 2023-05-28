@@ -1,5 +1,6 @@
 html {
     height: 100%;
+    font-family: 'Lemon/Milk', sans-serif;
 }
 body {
     height: 100%;
@@ -8,19 +9,61 @@ body {
     background-attachment: fixed;
     background-color:#0cbaba ;
     background-image: radial-gradient(circle at center,#0cbaba 0%,#380036 74%);
+    font-family: 'Lemon/Milk', sans-serif;
 
 }
 
 
 
 .name{
-    color: goldenrod;
+    color: white;
     stroke: black;
     -webkit-text-stroke: 0.5px black !important;
     text-align: center;
     font-size: 25px;
     font-style: bold;
-    font-family: 'Lemon/Milk', sans-serif;
+
 
 }
 
+.gif-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.gif-container img{
+    width: 20%;
+    height: 20%;
+    pointer-events: none;
+    
+}
+.queryBox{
+    width:100%;
+    display: flex;
+    justify-content: center;
+} 
+
+input[type=text] {
+    width: 40%;
+    height: 50px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    display: flex;
+    text-align: center;
+    border-radius: 30px;
+    border: none;
+    margin-top: 10px;
+    
+  }
+
+  .footer{
+    color: white;
+    font-size: 10px;
+    position:absolute;
+    bottom: 0;
+    width:100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    line-height: 20px;
+  }

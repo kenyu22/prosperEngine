@@ -1,0 +1,26 @@
+html {
+    height: 100%;
+}
+body {
+    height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color:#0cbaba ;
+    background-image: radial-gradient(circle at center,#0cbaba 0%,#380036 74%);
+
+}
+
+
+
+.name{
+    color: goldenrod;
+    stroke: black;
+    -webkit-text-stroke: 0.5px black !important;
+    text-align: center;
+    font-size: 25px;
+    font-style: bold;
+    font-family: 'Lemon/Milk', sans-serif;
+
+}
+
